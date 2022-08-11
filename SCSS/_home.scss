@@ -1,0 +1,21 @@
+#homepage {
+    .fs-2 {
+        color: $deep-pink;
+    }
+    
+    .icons {
+        svg {
+            margin: 1rem;
+            font-size: 3rem;
+            color: $midnight-blue;
+            
+            @media (min-width: 768px) {
+                font-size: 8rem;
+            }
+            
+            @media (min-width: 1200px) {
+                font-size: 12rem;
+            }
+        }
+    }
+}

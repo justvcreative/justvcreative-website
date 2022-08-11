@@ -1,0 +1,16 @@
+nav {
+    .logo { 
+        img {width: 90px;}
+    }
+    .name {font-weight: 500; font-size: 2rem; color: $deep-pink;}
+}
+
+.nav-link {
+    color: $midnight-blue;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+    &:hover, &:focus {
+        color: $deep-pink;
+    }
+}

@@ -1,0 +1,43 @@
+.case-study-card {
+    position: relative;
+    
+    /* Tabling for future use */
+    /* @media (hover: hover) {
+        img {
+            filter: saturate(0) sepia(.5);
+            transition: all 300ms ease-in-out;
+
+            &:hover, &:focus {
+                filter: saturate(1) sepia(0);
+            }
+        }
+    } */
+    
+    .content {
+        position: absolute;
+        bottom: 16px;
+        background-color: white;
+        padding: 12px 0;
+        
+        .eyebrow {
+            margin-bottom: 0;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+#designSystemCaseStudy {
+    
+    h2 {
+        margin-bottom: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}

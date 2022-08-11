@@ -1,0 +1,19 @@
+footer{
+    background: whitesmoke;
+    position: sticky;
+    top: 100%;
+    
+    .logo {
+        img {
+        width: 90px;}
+    }
+}
+
+.social-nav {
+    li {
+        margin-right: 2rem;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

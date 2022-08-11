@@ -1,0 +1,21 @@
+body { color: #413B3B; min-height: 100vh;}
+
+a, .btn-link {
+    color: midnightblue;
+    transition: all 300ms ease-in-out;
+    
+    &:hover, &:focus {
+        color: $deep-pink;
+    }
+}
+
+.btn-primary {
+    background-color: $midnight-blue;
+    border-color: $midnight-blue;
+    
+    &:hover, &:focus {
+        background-color: $deep-pink;
+        border-color: $deep-pink;
+    }
+}
+
