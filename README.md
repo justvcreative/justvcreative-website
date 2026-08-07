@@ -1,2 +1,5 @@
-### Portfolio Site 
-# Last Updated May 2025
+# Portfolio Site 
+
+## Last Updated August 2026
+
+Note: Going through a rebrand. Stay tuned....
